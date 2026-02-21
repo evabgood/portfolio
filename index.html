@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eva Good — Design Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+  <div id="app">
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav__logo" data-link>Eva Good</a>
+      <div class="nav__links">
+        <a href="#home" class="nav__link" data-link>Home</a>
+        <a href="#work" class="nav__link" data-link>Work</a>
+        <a href="#about" class="nav__link" data-link>About</a>
+        <a href="#contact" class="nav__link nav__link--cta" data-link>Let's Talk</a>
+      </div>
+      <button class="nav__burger" id="nav-burger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <div class="nav__mobile-menu" id="mobile-menu">
+      <a href="#home" class="nav__mobile-link" data-link>Home</a>
+      <a href="#work" class="nav__mobile-link" data-link>Work</a>
+      <a href="#about" class="nav__mobile-link" data-link>About</a>
+      <a href="#contact" class="nav__mobile-link" data-link>Let's Talk</a>
+    </div>
+
+    <main id="page-content"></main>
+
+    <footer class="footer" id="footer">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <span class="footer__name">Eva Good</span>
+          <span class="footer__tagline">Designing what's next.</span>
+        </div>
+        <div class="footer__right">
+          <a href="#home" data-link>Home</a>
+          <a href="#work" data-link>Work</a>
+          <a href="#about" data-link>About</a>
+          <a href="#contact" data-link>Contact</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Eva Good. Crafted with care.</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
