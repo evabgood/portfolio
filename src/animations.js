@@ -155,11 +155,20 @@ function initOrbFollower() {
   const orb = hero.querySelector('.hero__orb--follow');
   if (!orb) return;
 
+  const navHeight = 72;
+
   function onMove(e) {
     const rect = hero.getBoundingClientRect();
-    // Cursor position within the hero (px), offset by half orb size to center it on cursor
     const x = e.clientX - rect.left - 200;
     const y = e.clientY - rect.top - 200;
+
+    // Fade out the orb when cursor is in the nav area
+    const cursorY = e.clientY - rect.top;
+    if (cursorY < navHeight) {
+      orb.style.opacity = '0';
+    } else {
+      orb.style.opacity = '';
+    }
 
     orb.style.transform = `translate(${x}px, ${y}px)`;
   }
