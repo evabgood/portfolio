@@ -4,7 +4,7 @@ export function aboutPage() {
       <div class="container">
         <span class="section__label" data-reveal>About</span>
         <h1 class="page-hero__title" data-reveal data-delay="0.1">Info</h1>
-        <p class="page-hero__sub" data-reveal data-delay="0.2">Some context.</p>
+        <p class="page-hero__sub" data-reveal data-delay="0.2" data-typewriter>Some context.</p>
       </div>
     </section>
 

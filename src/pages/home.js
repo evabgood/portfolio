@@ -19,7 +19,7 @@ export function homePage() {
           <span class="hero__line">for <span class="hero__underline">screens</span>.</span>
         </h1>
 
-        <p class="hero__sub" data-reveal data-delay="0.4">
+        <p class="hero__sub" data-reveal data-delay="0.4" data-typewriter>
           Product designer, 8 years in. I make interfaces that work
           and sometimes look good doing it.
         </p>

@@ -4,7 +4,7 @@ export function workPage() {
       <div class="container">
         <span class="section__label" data-reveal>Portfolio</span>
         <h1 class="page-hero__title" data-reveal data-delay="0.1">Work</h1>
-        <p class="page-hero__sub" data-reveal data-delay="0.2">Things I've shipped. Most of them on purpose.</p>
+        <p class="page-hero__sub" data-reveal data-delay="0.2" data-typewriter>Things I've shipped. Most of them on purpose.</p>
       </div>
     </section>
 

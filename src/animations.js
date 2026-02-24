@@ -2,6 +2,7 @@
 let scrollObserver = null;
 let scrollHandler = null;
 let orbCleanup = null;
+let typewriterTimeouts = [];
 
 export function cleanupAnimations() {
   if (scrollObserver) {
@@ -16,11 +17,14 @@ export function cleanupAnimations() {
     orbCleanup();
     orbCleanup = null;
   }
+  typewriterTimeouts.forEach(id => clearTimeout(id));
+  typewriterTimeouts = [];
 }
 
 export function initAnimations() {
   // Always init interactive features (orb follower, magnetic buttons, etc.)
   initOrbFollower();
+  initTypewriters();
 
   const reveals = document.querySelectorAll('[data-reveal]:not(.revealed)');
   if (!reveals.length) return;
@@ -186,4 +190,43 @@ function initOrbFollower() {
     hero.removeEventListener('mousemove', onMove);
     hero.removeEventListener('mouseleave', onLeave);
   };
+}
+
+// --- Typewriter effect ---
+function initTypewriters() {
+  const els = document.querySelectorAll('[data-typewriter]');
+  if (!els.length) return;
+
+  els.forEach(el => {
+    const fullText = el.textContent.trim().replace(/\s+/g, ' ');
+    el.textContent = '';
+    const textSpan = document.createElement('span');
+    const cursor = document.createElement('span');
+    cursor.className = 'typewriter-cursor';
+    cursor.textContent = '|';
+    el.appendChild(textSpan);
+    el.appendChild(cursor);
+
+    // Wait for the reveal, then type after the reveal animation finishes
+    function waitForReveal() {
+      if (el.classList.contains('revealed')) {
+        // 800ms = revealUp animation duration
+        const tid = setTimeout(() => typeText(textSpan, fullText, 0), 800);
+        typewriterTimeouts.push(tid);
+      } else {
+        const rid = requestAnimationFrame(waitForReveal);
+        // Store a cleanup in case navigation happens before reveal
+        typewriterTimeouts.push(setTimeout(() => cancelAnimationFrame(rid), 10000));
+      }
+    }
+    waitForReveal();
+  });
+}
+
+function typeText(el, text, index) {
+  if (index >= text.length) return;
+  el.textContent += text[index];
+  const delay = 30 + Math.random() * 40;
+  const tid = setTimeout(() => typeText(el, text, index + 1), delay);
+  typewriterTimeouts.push(tid);
 }
