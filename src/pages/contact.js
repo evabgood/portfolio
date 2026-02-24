@@ -3,8 +3,8 @@ export function contactPage() {
     <section class="page-hero">
       <div class="container">
         <span class="section__label" data-reveal>Contact</span>
-        <h1 class="page-hero__title" data-reveal data-delay="0.1">Let's create<br>something together</h1>
-        <p class="page-hero__sub" data-reveal data-delay="0.2">Have a project, an idea, or just want to say hello? I'd love to hear from you.</p>
+        <h1 class="page-hero__title" data-reveal data-delay="0.1">Contact</h1>
+        <p class="page-hero__sub" data-reveal data-delay="0.2">Say what you need to say.</p>
       </div>
     </section>
 

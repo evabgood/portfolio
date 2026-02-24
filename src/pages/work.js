@@ -3,8 +3,8 @@ export function workPage() {
     <section class="page-hero">
       <div class="container">
         <span class="section__label" data-reveal>Portfolio</span>
-        <h1 class="page-hero__title" data-reveal data-delay="0.1">Selected Work</h1>
-        <p class="page-hero__sub" data-reveal data-delay="0.2">A curated collection of projects where design thinking meets real impact.</p>
+        <h1 class="page-hero__title" data-reveal data-delay="0.1">Work</h1>
+        <p class="page-hero__sub" data-reveal data-delay="0.2">Things I've shipped. Most of them on purpose.</p>
       </div>
     </section>
 
@@ -20,7 +20,7 @@ export function workPage() {
 
         <div class="work-grid">
           <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.1">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+            <div class="work-card__visual" style="background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%)">
               <div class="work-card__mockup">
                 <div class="mockup-window">
                   <div class="mockup-window__bar"><span></span><span></span><span></span></div>
@@ -56,7 +56,7 @@ export function workPage() {
           </article>
 
           <article class="work-card tilt-card" data-category="mobile" data-reveal data-delay="0.2">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)">
+            <div class="work-card__visual" style="background: linear-gradient(135deg, #1c1c1c 0%, #222222 100%)">
               <div class="work-card__mockup">
                 <div class="mockup-phone">
                   <div class="mockup-phone__notch"></div>
@@ -95,7 +95,7 @@ export function workPage() {
           </article>
 
           <article class="work-card work-card--wide tilt-card" data-category="system" data-reveal data-delay="0.15">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+            <div class="work-card__visual" style="background: linear-gradient(135deg, #181818 0%, #202020 100%)">
               <div class="work-card__mockup">
                 <div class="mockup-window mockup-window--wide">
                   <div class="mockup-window__bar"><span></span><span></span><span></span></div>
@@ -134,7 +134,7 @@ export function workPage() {
           </article>
 
           <article class="work-card tilt-card" data-category="brand" data-reveal data-delay="0.2">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%)">
+            <div class="work-card__visual" style="background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%)">
               <div class="work-card__mockup">
                 <div class="mockup-brand">
                   <div class="mockup-logo-circle"></div>
@@ -173,7 +173,7 @@ export function workPage() {
           </article>
 
           <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.3">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)">
+            <div class="work-card__visual" style="background: linear-gradient(135deg, #1b1b1b 0%, #232323 100%)">
               <div class="work-card__mockup">
                 <div class="mockup-window">
                   <div class="mockup-window__bar"><span></span><span></span><span></span></div>
@@ -213,7 +213,7 @@ export function workPage() {
           </article>
 
           <article class="work-card tilt-card" data-category="mobile" data-reveal data-delay="0.25">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%)">
+            <div class="work-card__visual" style="background: linear-gradient(135deg, #191919 0%, #212121 100%)">
               <div class="work-card__mockup">
                 <div class="mockup-phone">
                   <div class="mockup-phone__notch"></div>
@@ -262,10 +262,10 @@ export function workPage() {
             <div class="cta-banner__orb cta-banner__orb--1"></div>
             <div class="cta-banner__orb cta-banner__orb--2"></div>
           </div>
-          <h2 class="cta-banner__title">Interested in working together?</h2>
-          <p class="cta-banner__sub">I'm always open to discussing new projects and creative ideas.</p>
+          <h2 class="cta-banner__title">Got something?</h2>
+          <p class="cta-banner__sub">I'm listening.</p>
           <a href="#contact" class="btn btn--light magnetic" data-link>
-            <span>Start a Conversation</span>
+            <span>Reach out</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
         </div>

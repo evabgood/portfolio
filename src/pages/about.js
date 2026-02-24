@@ -3,8 +3,8 @@ export function aboutPage() {
     <section class="page-hero">
       <div class="container">
         <span class="section__label" data-reveal>About</span>
-        <h1 class="page-hero__title" data-reveal data-delay="0.1">The person behind<br>the pixels</h1>
-        <p class="page-hero__sub" data-reveal data-delay="0.2">Designer, thinker, maker — driven by curiosity and a love for craft.</p>
+        <h1 class="page-hero__title" data-reveal data-delay="0.1">Info</h1>
+        <p class="page-hero__sub" data-reveal data-delay="0.2">Some context.</p>
       </div>
     </section>
 
@@ -26,7 +26,7 @@ export function aboutPage() {
           </div>
 
           <div class="about-intro__text">
-            <h2 class="about-intro__headline" data-reveal data-delay="0.1">I believe design is an act of empathy.</h2>
+            <h2 class="about-intro__headline" data-reveal data-delay="0.1">I like making things that hold up.</h2>
             <p data-reveal data-delay="0.2">
               I'm Eva — a product designer with 8+ years of experience crafting digital experiences for companies ranging from early-stage startups to Fortune 500s. I specialize in turning complex problems into simple, intuitive solutions.
             </p>
@@ -96,7 +96,7 @@ export function aboutPage() {
       <div class="container">
         <div class="section__header" data-reveal>
           <span class="section__label">Skills & Tools</span>
-          <h2 class="section__title">My toolkit</h2>
+          <h2 class="section__title">Stack</h2>
         </div>
 
         <div class="skills-grid">
@@ -154,7 +154,7 @@ export function aboutPage() {
       <div class="container">
         <div class="section__header" data-reveal>
           <span class="section__label">Values</span>
-          <h2 class="section__title">What I stand for</h2>
+          <h2 class="section__title">Principles</h2>
         </div>
 
         <div class="values-grid">
@@ -189,10 +189,10 @@ export function aboutPage() {
             <div class="cta-banner__orb cta-banner__orb--1"></div>
             <div class="cta-banner__orb cta-banner__orb--2"></div>
           </div>
-          <h2 class="cta-banner__title">Want to know more?</h2>
-          <p class="cta-banner__sub">Let's connect — I'm always happy to chat about design, collaboration, or creative ideas.</p>
+          <h2 class="cta-banner__title">Questions?</h2>
+          <p class="cta-banner__sub">I'm around.</p>
           <a href="#contact" class="btn btn--light magnetic" data-link>
-            <span>Say Hello</span>
+            <span>Reach out</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
         </div>
