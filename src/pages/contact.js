@@ -4,7 +4,7 @@ export function contactPage() {
       <div class="container">
         <span class="section__label" data-reveal>Contact</span>
         <h1 class="page-hero__title" data-reveal data-delay="0.1">Contact</h1>
-        <p class="page-hero__sub" data-reveal data-delay="0.2">Say what you need to say.</p>
+        <p class="page-hero__sub" data-reveal data-delay="0.2" data-typewriter>Say what you need to say.</p>
       </div>
     </section>
 
