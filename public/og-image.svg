@@ -1,69 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0a0a10"/>
-      <stop offset="50%" stop-color="#111128"/>
-      <stop offset="100%" stop-color="#0a0a10"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx="30%" cy="50%" r="40%" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="rgba(108,92,231,0.3)"/>
+    <radialGradient id="glow" cx="50%" cy="45%" r="50%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="rgba(232,57,14,0.12)"/>
       <stop offset="100%" stop-color="transparent"/>
     </radialGradient>
-    <radialGradient id="glow2" cx="75%" cy="60%" r="35%" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="rgba(0,184,148,0.2)"/>
-      <stop offset="100%" stop-color="transparent"/>
-    </radialGradient>
-    <radialGradient id="glow3" cx="50%" cy="20%" r="30%" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="rgba(253,121,168,0.15)"/>
-      <stop offset="100%" stop-color="transparent"/>
-    </radialGradient>
-    <linearGradient id="logoGrad" x1="0" y1="0" x2="56" y2="56" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#6c5ce7"/>
-      <stop offset="100%" stop-color="#a29bfe"/>
-    </linearGradient>
-    <linearGradient id="textGrad" x1="200" y1="200" x2="900" y2="450" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#fd79a8"/>
-      <stop offset="50%" stop-color="#a29bfe"/>
-      <stop offset="100%" stop-color="#6c5ce7"/>
-    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="#0c0c0c"/>
 
-  <!-- Ambient glows -->
-  <rect width="1200" height="630" fill="url(#glow1)"/>
-  <rect width="1200" height="630" fill="url(#glow2)"/>
-  <rect width="1200" height="630" fill="url(#glow3)"/>
+  <!-- Subtle warm glow -->
+  <rect width="1200" height="630" fill="url(#glow)"/>
 
-  <!-- Subtle grid pattern -->
-  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
-  </pattern>
+  <!-- Grid pattern -->
   <rect width="1200" height="630" fill="url(#grid)" opacity="0.5"/>
 
   <!-- Logo mark -->
   <g transform="translate(80, 80)">
-    <rect width="48" height="48" rx="12" fill="url(#logoGrad)"/>
-    <path d="M12 10h17v4.5H17v6h9v4.5H17v6h12V35H12V10z" fill="white" opacity="0.95"/>
-    <circle cx="38" cy="38" r="3" fill="white" opacity="0.7"/>
+    <rect width="48" height="48" rx="6" fill="#0c0c0c" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <path d="M12 10h17v4.5H17v6h9v4.5H17v6h12V35H12V10z" fill="#ededed"/>
+    <circle cx="38" cy="38" r="3" fill="#E8390E" opacity="0.9"/>
   </g>
 
   <!-- Name -->
-  <text x="145" y="115" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="28" fill="#f0f0f5" letter-spacing="-0.02em">Eva Good</text>
+  <text x="145" y="113" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" font-size="26" fill="#ededed" letter-spacing="-0.02em">Eva Good</text>
 
   <!-- Main headline -->
-  <text font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" letter-spacing="-0.03em">
-    <tspan x="80" y="310" font-size="72" fill="#f0f0f5">I design experiences</tspan>
-    <tspan x="80" y="395" font-size="72" fill="url(#textGrad)">people love.</tspan>
+  <text font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" letter-spacing="-0.03em">
+    <tspan x="80" y="290" font-size="80" fill="#ededed">Eva Good</tspan>
+    <tspan x="80" y="380" font-size="80" fill="#E8390E">designs things</tspan>
+    <tspan x="80" y="470" font-size="80" fill="#ededed">for screens.</tspan>
   </text>
 
-  <!-- Subtitle -->
-  <text x="80" y="450" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-weight="400" font-size="22" fill="#9898a8">Product Design &#183; UI/UX &#183; Brand Identity &#183; Design Systems</text>
+  <!-- Accent underline -->
+  <rect x="80" y="480" width="100" height="3" rx="1.5" fill="#E8390E" opacity="0.6"/>
 
-  <!-- URL -->
-  <text x="80" y="570" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-weight="500" font-size="18" fill="#5a5a6e" letter-spacing="0.05em">EVAGOOD.DESIGN</text>
+  <!-- URL in mono -->
+  <text x="80" y="570" font-family="'Space Mono', 'Courier New', monospace" font-weight="400" font-size="16" fill="#555555" letter-spacing="0.1em">EVABGOOD.COM</text>
 
-  <!-- Decorative accent line -->
-  <rect x="80" y="490" width="120" height="3" rx="1.5" fill="url(#logoGrad)" opacity="0.6"/>
+  <!-- Eyebrow label in mono -->
+  <text x="1120" y="570" font-family="'Space Mono', 'Courier New', monospace" font-weight="400" font-size="14" fill="#555555" letter-spacing="0.15em" text-anchor="end">DESIGNER</text>
 </svg>
