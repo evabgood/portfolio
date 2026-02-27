@@ -2,6 +2,7 @@ import { homePage } from './pages/home.js';
 import { workPage } from './pages/work.js';
 import { aboutPage } from './pages/about.js';
 import { contactPage } from './pages/contact.js';
+import { sdfLabsPage } from './pages/sdf-labs.js';
 import { initAnimations, cleanupAnimations } from './animations.js';
 
 const routes = {
@@ -9,6 +10,7 @@ const routes = {
   work: workPage,
   about: aboutPage,
   contact: contactPage,
+  'work/sdf-labs': sdfLabsPage,
 };
 
 export function router() {

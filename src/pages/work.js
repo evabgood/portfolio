@@ -19,41 +19,45 @@ export function workPage() {
         </div>
 
         <div class="work-grid">
+          <a href="#work/sdf-labs" class="work-card-link" data-link>
           <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.1">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%)">
+            <div class="work-card__visual" style="background: linear-gradient(135deg, #060b18 0%, #0d1528 100%)">
               <div class="work-card__mockup">
                 <div class="mockup-window">
                   <div class="mockup-window__bar"><span></span><span></span><span></span></div>
-                  <div class="mockup-window__content mockup--lumina">
-                    <div class="mockup-nav"></div>
-                    <div class="mockup-hero-block"></div>
-                    <div class="mockup-cards"><div class="mockup-card-sm"></div><div class="mockup-card-sm"></div><div class="mockup-card-sm"></div></div>
+                  <div class="mockup-window__content mockup--sdf">
+                    <div class="mockup-sdf-nav"></div>
+                    <div class="mockup-sdf-orb"></div>
+                    <div class="mockup-sdf-headline"></div>
+                    <div class="mockup-sdf-subline"></div>
+                    <div class="mockup-sdf-cards"><div class="mockup-sdf-card"></div><div class="mockup-sdf-card"></div><div class="mockup-sdf-card"></div></div>
                   </div>
                 </div>
               </div>
               <div class="work-card__overlay">
-                <span class="work-card__view">View Case Study</span>
+                <span class="work-card__view">View Project</span>
               </div>
             </div>
             <div class="work-card__meta">
               <div class="work-card__tags">
-                <span>Product Design</span>
-                <span>UX Research</span>
+                <span>Web Design</span>
+                <span>Webflow Development</span>
               </div>
-              <h3 class="work-card__title">Lumina</h3>
-              <p class="work-card__desc">Redesigning a wellness platform to feel as calming as the experience it delivers. Increased daily active users by 40% and reduced onboarding drop-off by 55%.</p>
+              <h3 class="work-card__title">SDF Labs</h3>
+              <p class="work-card__desc">Designed and developed the entire website for SDF Labs (Semantic Data Fabric), end-to-end in Figma and Webflow.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
-                  <strong>+40%</strong>
-                  <span>DAU increase</span>
+                  <strong>End-to-end</strong>
+                  <span>Design & Dev</span>
                 </div>
                 <div class="work-card__stat">
-                  <strong>-55%</strong>
-                  <span>Drop-off rate</span>
+                  <strong>Figma</strong>
+                  <span>to Webflow</span>
                 </div>
               </div>
             </div>
           </article>
+          </a>
 
           <article class="work-card tilt-card" data-category="mobile" data-reveal data-delay="0.2">
             <div class="work-card__visual" style="background: linear-gradient(135deg, #1c1c1c 0%, #222222 100%)">

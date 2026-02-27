@@ -84,31 +84,35 @@ export function homePage() {
         </div>
 
         <div class="featured__grid">
+          <a href="#work/sdf-labs" class="project-card-link" data-link>
           <div class="project-card tilt-card" data-reveal data-delay="0.1">
-            <div class="project-card__image" style="background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%)">
+            <div class="project-card__image" style="background: linear-gradient(135deg, #060b18 0%, #0d1528 100%)">
               <div class="project-card__mockup">
                 <div class="mockup-window">
                   <div class="mockup-window__bar">
                     <span></span><span></span><span></span>
                   </div>
-                  <div class="mockup-window__content mockup--lumina">
-                    <div class="mockup-nav"></div>
-                    <div class="mockup-hero-block"></div>
-                    <div class="mockup-cards">
-                      <div class="mockup-card-sm"></div>
-                      <div class="mockup-card-sm"></div>
-                      <div class="mockup-card-sm"></div>
+                  <div class="mockup-window__content mockup--sdf">
+                    <div class="mockup-sdf-nav"></div>
+                    <div class="mockup-sdf-orb"></div>
+                    <div class="mockup-sdf-headline"></div>
+                    <div class="mockup-sdf-subline"></div>
+                    <div class="mockup-sdf-cards">
+                      <div class="mockup-sdf-card"></div>
+                      <div class="mockup-sdf-card"></div>
+                      <div class="mockup-sdf-card"></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="project-card__info">
-              <span class="project-card__tag">Product Design</span>
-              <h3 class="project-card__title">Lumina</h3>
-              <p class="project-card__desc">A wellness platform reimagined with warm, human-centered design. Increased user engagement by 40%.</p>
+              <span class="project-card__tag">Web Design</span>
+              <h3 class="project-card__title">SDF Labs</h3>
+              <p class="project-card__desc">Designed and built the complete web presence for SDF Labs (Semantic Data Fabric) from Figma to Webflow.</p>
             </div>
           </div>
+          </a>
 
           <div class="project-card tilt-card" data-reveal data-delay="0.25">
             <div class="project-card__image" style="background: linear-gradient(135deg, #1c1c1c 0%, #222222 100%)">
