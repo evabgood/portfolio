@@ -86,25 +86,8 @@ export function homePage() {
         <div class="featured__grid">
           <a href="#work/sdf-labs" class="project-card-link" data-link>
           <div class="project-card tilt-card" data-reveal data-delay="0.1">
-            <div class="project-card__image" style="background: linear-gradient(135deg, #060b18 0%, #0d1528 100%)">
-              <div class="project-card__mockup">
-                <div class="mockup-window">
-                  <div class="mockup-window__bar">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mockup-window__content mockup--sdf">
-                    <div class="mockup-sdf-nav"></div>
-                    <div class="mockup-sdf-orb"></div>
-                    <div class="mockup-sdf-headline"></div>
-                    <div class="mockup-sdf-subline"></div>
-                    <div class="mockup-sdf-cards">
-                      <div class="mockup-sdf-card"></div>
-                      <div class="mockup-sdf-card"></div>
-                      <div class="mockup-sdf-card"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="project-card__image project-card__image--screenshot">
+              <img src="/work/sdf-labs/sdf-hero.png" alt="SDF Labs homepage" />
             </div>
             <div class="project-card__info">
               <span class="project-card__tag">Web Design</span>

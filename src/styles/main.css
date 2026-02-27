@@ -713,6 +713,18 @@ em {
   aspect-ratio: 21 / 9;
 }
 
+.project-card__image--screenshot {
+  background: #f0f0f0;
+  align-items: flex-start;
+}
+
+.project-card__image--screenshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
 .project-card__info {
   padding: var(--space-md) var(--space-lg);
 }
