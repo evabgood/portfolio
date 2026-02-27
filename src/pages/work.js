@@ -21,19 +21,8 @@ export function workPage() {
         <div class="work-grid">
           <a href="#work/sdf-labs" class="work-card-link" data-link>
           <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.1">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #060b18 0%, #0d1528 100%)">
-              <div class="work-card__mockup">
-                <div class="mockup-window">
-                  <div class="mockup-window__bar"><span></span><span></span><span></span></div>
-                  <div class="mockup-window__content mockup--sdf">
-                    <div class="mockup-sdf-nav"></div>
-                    <div class="mockup-sdf-orb"></div>
-                    <div class="mockup-sdf-headline"></div>
-                    <div class="mockup-sdf-subline"></div>
-                    <div class="mockup-sdf-cards"><div class="mockup-sdf-card"></div><div class="mockup-sdf-card"></div><div class="mockup-sdf-card"></div></div>
-                  </div>
-                </div>
-              </div>
+            <div class="work-card__visual work-card__visual--screenshot">
+              <img src="/work/sdf-labs/sdf-hero.png" alt="SDF Labs homepage" />
               <div class="work-card__overlay">
                 <span class="work-card__view">View Project</span>
               </div>
