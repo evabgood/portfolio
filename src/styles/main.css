@@ -1485,6 +1485,10 @@ em {
   .project-card--wide {
     grid-column: auto;
   }
+
+  .project-card--wide .project-card__image {
+    aspect-ratio: 16 / 10;
+  }
 }
 
 /* ========================
