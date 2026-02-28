@@ -17,14 +17,6 @@ export function sdfDesignSystemPage() {
       </div>
     </section>
 
-    <section class="section project-detail__hero-section">
-      <div class="container">
-        <div class="brand-asset-frame brand-asset-frame--wide" data-reveal data-delay="0.1">
-          <img src="/work/sdf-design-system/sdf-typography.svg" alt="SDF Design System typography scale and type foundations" />
-        </div>
-      </div>
-    </section>
-
     <section class="section project-detail__overview">
       <div class="container">
         <div class="project-detail__meta">
