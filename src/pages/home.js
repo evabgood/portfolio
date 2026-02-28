@@ -97,28 +97,18 @@ export function homePage() {
           </div>
           </a>
 
+          <a href="#work/sdf-lineage" class="project-card-link" data-link>
           <div class="project-card tilt-card" data-reveal data-delay="0.25">
-            <div class="project-card__image" style="background: linear-gradient(135deg, #1c1c1c 0%, #222222 100%)">
-              <div class="project-card__mockup">
-                <div class="mockup-phone">
-                  <div class="mockup-phone__notch"></div>
-                  <div class="mockup-phone__content mockup--flowstate">
-                    <div class="mockup-status-bar"></div>
-                    <div class="mockup-app-header"></div>
-                    <div class="mockup-list-item"></div>
-                    <div class="mockup-list-item"></div>
-                    <div class="mockup-list-item"></div>
-                    <div class="mockup-fab"></div>
-                  </div>
-                </div>
-              </div>
+            <div class="project-card__image project-card__image--screenshot">
+              <img src="/work/sdf-lineage/lineage-classic.svg" alt="SDF Cloud lineage view" />
             </div>
             <div class="project-card__info">
-              <span class="project-card__tag">Mobile App</span>
-              <h3 class="project-card__title">FlowState</h3>
-              <p class="project-card__desc">Productivity app that adapts to your work rhythm. Featured on the App Store.</p>
+              <span class="project-card__tag">Product Design</span>
+              <h3 class="project-card__title">SDF Lineage</h3>
+              <p class="project-card__desc">Three kinds of data lineage for the SDF Cloud — classic, column-level, and classifier.</p>
             </div>
           </div>
+          </a>
 
           <div class="project-card project-card--wide tilt-card" data-reveal data-delay="0.15">
             <div class="project-card__image" style="background: linear-gradient(135deg, #181818 0%, #202020 100%)">

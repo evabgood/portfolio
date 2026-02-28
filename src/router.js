@@ -3,6 +3,7 @@ import { workPage } from './pages/work.js';
 import { aboutPage } from './pages/about.js';
 import { contactPage } from './pages/contact.js';
 import { sdfLabsPage } from './pages/sdf-labs.js';
+import { sdfLineagePage } from './pages/sdf-lineage.js';
 import { initAnimations, cleanupAnimations } from './animations.js';
 
 const routes = {
@@ -11,6 +12,7 @@ const routes = {
   about: aboutPage,
   contact: contactPage,
   'work/sdf-labs': sdfLabsPage,
+  'work/sdf-lineage': sdfLineagePage,
 };
 
 export function router() {

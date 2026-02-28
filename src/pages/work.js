@@ -48,44 +48,34 @@ export function workPage() {
           </article>
           </a>
 
-          <article class="work-card tilt-card" data-category="mobile" data-reveal data-delay="0.2">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #1c1c1c 0%, #222222 100%)">
-              <div class="work-card__mockup">
-                <div class="mockup-phone">
-                  <div class="mockup-phone__notch"></div>
-                  <div class="mockup-phone__content mockup--flowstate">
-                    <div class="mockup-status-bar"></div>
-                    <div class="mockup-app-header"></div>
-                    <div class="mockup-list-item"></div>
-                    <div class="mockup-list-item"></div>
-                    <div class="mockup-list-item"></div>
-                    <div class="mockup-fab"></div>
-                  </div>
-                </div>
-              </div>
+          <a href="#work/sdf-lineage" class="work-card-link" data-link>
+          <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.2">
+            <div class="work-card__visual work-card__visual--screenshot">
+              <img src="/work/sdf-lineage/lineage-classic.svg" alt="SDF Cloud lineage view" />
               <div class="work-card__overlay">
-                <span class="work-card__view">View Case Study</span>
+                <span class="work-card__view">View Project</span>
               </div>
             </div>
             <div class="work-card__meta">
               <div class="work-card__tags">
-                <span>Mobile App</span>
-                <span>iOS</span>
+                <span>Product Design</span>
+                <span>SDF Labs</span>
               </div>
-              <h3 class="work-card__title">FlowState</h3>
-              <p class="work-card__desc">A productivity app that adapts to your natural work rhythm. Featured as App of the Day on the App Store.</p>
+              <h3 class="work-card__title">SDF Lineage</h3>
+              <p class="work-card__desc">Designed three kinds of data lineage for the SDF Cloud — classic, column-level, and classifier (PII) lineage.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
-                  <strong>4.9</strong>
-                  <span>App Store</span>
+                  <strong>3 Types</strong>
+                  <span>Lineage Views</span>
                 </div>
                 <div class="work-card__stat">
-                  <strong>500K+</strong>
-                  <span>Downloads</span>
+                  <strong>Figma</strong>
+                  <span>End-to-end Design</span>
                 </div>
               </div>
             </div>
           </article>
+          </a>
 
           <article class="work-card work-card--wide tilt-card" data-category="system" data-reveal data-delay="0.15">
             <div class="work-card__visual" style="background: linear-gradient(135deg, #181818 0%, #202020 100%)">
