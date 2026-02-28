@@ -2071,6 +2071,25 @@ em {
   background: #bbb;
 }
 
+.browser-frame--dark .browser-frame__bar {
+  background: #2a2a2a;
+  border-bottom-color: #3a3a3a;
+}
+
+.browser-frame--dark .browser-frame__bar span {
+  background: #555;
+}
+
+.browser-frame--dark .browser-frame__url {
+  background: #1a1a1a;
+  border-color: #3a3a3a;
+  color: #888;
+}
+
+.browser-frame--dark .browser-frame__content {
+  background: #1a1a1a;
+}
+
 .browser-frame__url {
   margin-left: auto;
   font-family: var(--font-display);

@@ -19,7 +19,7 @@ export function dbtCostInsightsPage() {
 
     <section class="section project-detail__hero-section">
       <div class="container">
-        <div class="browser-frame browser-frame--hero" data-reveal data-delay="0.1">
+        <div class="browser-frame browser-frame--hero browser-frame--dark" data-reveal data-delay="0.1">
           <div class="browser-frame__bar">
             <span></span><span></span><span></span>
             <div class="browser-frame__url">cloud.getdbt.com</div>
@@ -67,7 +67,7 @@ export function dbtCostInsightsPage() {
         <h2 class="project-detail__section-title" data-reveal>The Work</h2>
 
         <div class="project-detail__gallery-label" data-reveal>Cost Overview</div>
-        <div class="browser-frame" data-reveal data-delay="0.1">
+        <div class="browser-frame browser-frame--dark" data-reveal data-delay="0.1">
           <div class="browser-frame__bar">
             <span></span><span></span><span></span>
             <div class="browser-frame__url">cloud.getdbt.com</div>
@@ -81,7 +81,7 @@ export function dbtCostInsightsPage() {
         <div class="project-detail__gallery-pair" data-reveal data-delay="0.1">
           <div>
             <div class="project-detail__gallery-label">Model Builds</div>
-            <div class="browser-frame">
+            <div class="browser-frame browser-frame--dark">
               <div class="browser-frame__bar">
                 <span></span><span></span><span></span>
               </div>
@@ -92,7 +92,7 @@ export function dbtCostInsightsPage() {
           </div>
           <div>
             <div class="project-detail__gallery-label">Query Runtime</div>
-            <div class="browser-frame">
+            <div class="browser-frame browser-frame--dark">
               <div class="browser-frame__bar">
                 <span></span><span></span><span></span>
               </div>
