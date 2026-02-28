@@ -135,45 +135,34 @@ export function workPage() {
           </article>
           </a>
 
+          <a href="#work/sdf-reports" class="work-card-link" data-link>
           <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.3">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #1b1b1b 0%, #232323 100%)">
-              <div class="work-card__mockup">
-                <div class="mockup-window">
-                  <div class="mockup-window__bar"><span></span><span></span><span></span></div>
-                  <div class="mockup-window__content mockup--canvas">
-                    <div class="mockup-toolbar"></div>
-                    <div class="mockup-canvas-area">
-                      <div class="mockup-shape mockup-shape--1"></div>
-                      <div class="mockup-shape mockup-shape--2"></div>
-                      <div class="mockup-shape mockup-shape--3"></div>
-                    </div>
-                    <div class="mockup-properties"></div>
-                  </div>
-                </div>
-              </div>
+            <div class="work-card__visual work-card__visual--screenshot">
+              <img src="/work/sdf-reports/sdf-reports.svg" alt="SDF Cloud reports dashboard" />
               <div class="work-card__overlay">
-                <span class="work-card__view">View Case Study</span>
+                <span class="work-card__view">View Project</span>
               </div>
             </div>
             <div class="work-card__meta">
               <div class="work-card__tags">
-                <span>SaaS Platform</span>
                 <span>Product Design</span>
+                <span>SDF Labs</span>
               </div>
-              <h3 class="work-card__title">Canvas Pro</h3>
-              <p class="work-card__desc">Designing a collaborative design tool that feels as natural as sketching on paper.</p>
+              <h3 class="work-card__title">SDF Reports</h3>
+              <p class="work-card__desc">End-to-end design for a data reporting feature in SDF Cloud — dashboards, drill-downs, pinned reports, and empty states.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
-                  <strong>2M+</strong>
-                  <span>Users</span>
+                  <strong>4 Views</strong>
+                  <span>Designed</span>
                 </div>
                 <div class="work-card__stat">
-                  <strong>Series B</strong>
-                  <span>Funded</span>
+                  <strong>Figma</strong>
+                  <span>End-to-end Design</span>
                 </div>
               </div>
             </div>
           </article>
+          </a>
 
           <article class="work-card tilt-card" data-category="mobile" data-reveal data-delay="0.25">
             <div class="work-card__visual" style="background: linear-gradient(135deg, #191919 0%, #212121 100%)">

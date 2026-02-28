@@ -6,6 +6,7 @@ import { sdfLabsPage } from './pages/sdf-labs.js';
 import { sdfLineagePage } from './pages/sdf-lineage.js';
 import { sdfBrandPage } from './pages/sdf-brand.js';
 import { sdfDesignSystemPage } from './pages/sdf-design-system.js';
+import { sdfReportsPage } from './pages/sdf-reports.js';
 import { initAnimations, cleanupAnimations } from './animations.js';
 
 const routes = {
@@ -17,6 +18,7 @@ const routes = {
   'work/sdf-lineage': sdfLineagePage,
   'work/sdf-brand': sdfBrandPage,
   'work/sdf-design-system': sdfDesignSystemPage,
+  'work/sdf-reports': sdfReportsPage,
 };
 
 export function router() {
