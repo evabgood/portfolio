@@ -13,14 +13,14 @@ export function workPage() {
         <div class="work-filters" data-reveal>
           <button class="filter-btn filter-btn--active" data-filter="all">All</button>
           <button class="filter-btn" data-filter="product">Product</button>
-          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="web">Web</button>
           <button class="filter-btn" data-filter="brand">Brand</button>
           <button class="filter-btn" data-filter="system">Systems</button>
         </div>
 
         <div class="work-grid">
           <a href="#work/sdf-labs" class="work-card-link" data-link>
-          <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.1">
+          <article class="work-card tilt-card" data-category="web" data-reveal data-delay="0.1">
             <div class="work-card__visual work-card__visual--screenshot">
               <img src="/work/sdf-labs/sdf-hero.png" alt="SDF Labs homepage" />
               <div class="work-card__overlay">
