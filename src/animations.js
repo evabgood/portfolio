@@ -145,7 +145,9 @@ export function initAnimations() {
       btn.classList.add('filter-btn--active');
       const f = btn.dataset.filter;
       document.querySelectorAll('.work-card').forEach(card => {
-        card.style.display = (f === 'all' || card.dataset.category === f) ? '' : 'none';
+        const visible = f === 'all' || card.dataset.category === f;
+        const gridChild = card.closest('.work-card-link') || card;
+        gridChild.style.display = visible ? '' : 'none';
       });
     });
   });
