@@ -97,28 +97,28 @@ export function homePage() {
           </div>
           </a>
 
-          <a href="#work/sdf-lineage" class="project-card-link" data-link>
+          <a href="#work/dbt-cost-insights" class="project-card-link" data-link>
           <div class="project-card tilt-card" data-reveal data-delay="0.25">
-            <div class="project-card__image project-card__image--screenshot">
-              <img src="/work/sdf-lineage/lineage-classic.svg" alt="SDF Cloud lineage view" />
+            <div class="project-card__image project-card__image--screenshot" style="background: #1a1a1a">
+              <img src="/work/dbt-cost-insights/cost-insights.svg" alt="dbt Cost Insights dashboard" />
             </div>
             <div class="project-card__info">
               <span class="project-card__tag">Product Design</span>
-              <h3 class="project-card__title">SDF Lineage</h3>
-              <p class="project-card__desc">Three kinds of data lineage for the SDF Cloud — classic, column-level, and classifier.</p>
+              <h3 class="project-card__title">Cost Insights</h3>
+              <p class="project-card__desc">A cost tracking feature for dbt Cloud that surfaces total savings from Fusion and state-aware orchestration.</p>
             </div>
           </div>
           </a>
 
-          <a href="#work/sdf-design-system" class="project-card-link" data-link>
+          <a href="#work/sdf-brand" class="project-card-link" data-link>
           <div class="project-card project-card--wide tilt-card" data-reveal data-delay="0.15">
             <div class="project-card__image project-card__image--screenshot">
-              <img src="/work/sdf-design-system/sdf-colors.svg" alt="SDF Design System color palette" />
+              <img src="/work/sdf-brand/sdf-banner.svg" alt="SDF Labs brand identity" />
             </div>
             <div class="project-card__info">
-              <span class="project-card__tag">Design Systems</span>
-              <h3 class="project-card__title">SDF Design System</h3>
-              <p class="project-card__desc">Lead contributor to SDF's component library, color tokens, and typography foundations.</p>
+              <span class="project-card__tag">Brand Identity</span>
+              <h3 class="project-card__title">SDF Brand</h3>
+              <p class="project-card__desc">Visual identity system for SDF Labs — logos, color language, and brand elements built in Figma.</p>
             </div>
           </div>
           </a>
