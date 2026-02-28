@@ -1984,6 +1984,10 @@ em {
   height: 100%;
 }
 
+.project-card-link--wide {
+  grid-column: 1 / -1;
+}
+
 .work-card-link .work-card {
   height: 100%;
 }

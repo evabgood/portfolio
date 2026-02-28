@@ -110,7 +110,7 @@ export function homePage() {
           </div>
           </a>
 
-          <a href="#work/sdf-brand" class="project-card-link" data-link>
+          <a href="#work/sdf-brand" class="project-card-link project-card-link--wide" data-link>
           <div class="project-card project-card--wide tilt-card" data-reveal data-delay="0.15">
             <div class="project-card__image project-card__image--screenshot">
               <img src="/work/sdf-brand/sdf-banner.svg" alt="SDF Labs brand identity" />
