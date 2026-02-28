@@ -77,44 +77,34 @@ export function workPage() {
           </article>
           </a>
 
+          <a href="#work/sdf-design-system" class="work-card-link" data-link>
           <article class="work-card work-card--wide tilt-card" data-category="system" data-reveal data-delay="0.15">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #181818 0%, #202020 100%)">
-              <div class="work-card__mockup">
-                <div class="mockup-window mockup-window--wide">
-                  <div class="mockup-window__bar"><span></span><span></span><span></span></div>
-                  <div class="mockup-window__content mockup--atlas">
-                    <div class="mockup-sidebar"></div>
-                    <div class="mockup-main">
-                      <div class="mockup-chart"></div>
-                      <div class="mockup-data-row"></div>
-                      <div class="mockup-data-row"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="work-card__visual work-card__visual--screenshot">
+              <img src="/work/sdf-design-system/sdf-colors.svg" alt="SDF Design System color palette" />
               <div class="work-card__overlay">
-                <span class="work-card__view">View Case Study</span>
+                <span class="work-card__view">View Project</span>
               </div>
             </div>
             <div class="work-card__meta">
               <div class="work-card__tags">
-                <span>Design System</span>
-                <span>Enterprise</span>
+                <span>Design Systems</span>
+                <span>Component Library</span>
               </div>
-              <h3 class="work-card__title">Atlas Design System</h3>
-              <p class="work-card__desc">A comprehensive design system serving 12 product teams and 200+ engineers. Unified the visual language across an entire product suite.</p>
+              <h3 class="work-card__title">SDF Design System</h3>
+              <p class="work-card__desc">Lead contributor to SDF's component library and design foundations — color tokens, typography, and a full component library built in Figma.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
-                  <strong>12</strong>
-                  <span>Teams served</span>
+                  <strong>Lead</strong>
+                  <span>Contributor</span>
                 </div>
                 <div class="work-card__stat">
-                  <strong>-60%</strong>
-                  <span>Design debt</span>
+                  <strong>Full</strong>
+                  <span>Component Library</span>
                 </div>
               </div>
             </div>
           </article>
+          </a>
 
           <a href="#work/sdf-brand" class="work-card-link" data-link>
           <article class="work-card tilt-card" data-category="brand" data-reveal data-delay="0.2">
