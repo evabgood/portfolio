@@ -39,6 +39,10 @@ export function homePage() {
         <div class="hero__scroll-line"></div>
         <span>Scroll</span>
       </div>
+
+      <div class="music-player">
+        <iframe src="https://open.spotify.com/embed/track/44S38qjqDCucIhpIwvImCF?utm_source=generator&theme=0" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
     </section>
 
     <section class="section marquee-section">
