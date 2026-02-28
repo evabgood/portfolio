@@ -110,30 +110,18 @@ export function homePage() {
           </div>
           </a>
 
+          <a href="#work/sdf-design-system" class="project-card-link" data-link>
           <div class="project-card project-card--wide tilt-card" data-reveal data-delay="0.15">
-            <div class="project-card__image" style="background: linear-gradient(135deg, #181818 0%, #202020 100%)">
-              <div class="project-card__mockup">
-                <div class="mockup-window mockup-window--wide">
-                  <div class="mockup-window__bar">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mockup-window__content mockup--atlas">
-                    <div class="mockup-sidebar"></div>
-                    <div class="mockup-main">
-                      <div class="mockup-chart"></div>
-                      <div class="mockup-data-row"></div>
-                      <div class="mockup-data-row"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="project-card__image project-card__image--screenshot">
+              <img src="/work/sdf-design-system/sdf-colors.svg" alt="SDF Design System color palette" />
             </div>
             <div class="project-card__info">
-              <span class="project-card__tag">Design System</span>
-              <h3 class="project-card__title">Atlas Design System</h3>
-              <p class="project-card__desc">A comprehensive design system serving 12 product teams. Reduced design debt by 60% and accelerated shipping velocity.</p>
+              <span class="project-card__tag">Design Systems</span>
+              <h3 class="project-card__title">SDF Design System</h3>
+              <p class="project-card__desc">Lead contributor to SDF's component library, color tokens, and typography foundations.</p>
             </div>
           </div>
+          </a>
         </div>
 
         <div class="featured__cta" data-reveal>

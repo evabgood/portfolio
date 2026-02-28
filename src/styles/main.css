@@ -1981,6 +1981,11 @@ em {
   display: block;
   text-decoration: none;
   color: inherit;
+  height: 100%;
+}
+
+.work-card-link .work-card {
+  height: 100%;
 }
 
 /* --- Back navigation --- */
