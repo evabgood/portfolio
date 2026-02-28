@@ -20,7 +20,7 @@ export function sdfDesignSystemPage() {
     <section class="section project-detail__hero-section">
       <div class="container">
         <div class="brand-asset-frame brand-asset-frame--wide" data-reveal data-delay="0.1">
-          <img src="/work/sdf-design-system/sdf-colors.svg" alt="SDF Design System color palette and token documentation" />
+          <img src="/work/sdf-design-system/sdf-typography.svg" alt="SDF Design System typography scale and type foundations" />
         </div>
       </div>
     </section>
@@ -56,17 +56,26 @@ export function sdfDesignSystemPage() {
       <div class="container">
         <h2 class="project-detail__section-title" data-reveal>The Work</h2>
 
+        <div class="project-detail__gallery-label" data-reveal>Typography</div>
+        <div class="brand-asset-frame brand-asset-frame--wide" data-reveal data-delay="0.1">
+          <img src="/work/sdf-design-system/sdf-typography.svg" alt="SDF type system — type scale, weights, and usage guidelines" />
+        </div>
+        <p class="project-detail__gallery-caption">A type system built for dense, data-heavy interfaces — clear hierarchy from display headings down to caption and label styles, all mapped to semantic tokens.</p>
+
         <div class="project-detail__gallery-label" data-reveal>Color System</div>
         <div class="brand-asset-frame brand-asset-frame--wide" data-reveal data-delay="0.1">
-          <img src="/work/sdf-design-system/sdf-colors.svg" alt="SDF color system — full palette and token documentation" />
+          <img src="/work/sdf-design-system/sdf-colors.svg" alt="SDF color system — base palette and token documentation" />
         </div>
-        <p class="project-detail__gallery-caption">A structured color token system covering brand, semantic, and interactive states — built to scale across light and dark surfaces in a developer-first product.</p>
+        <div class="brand-asset-frame brand-asset-frame--wide" data-reveal data-delay="0.1" style="margin-top: var(--space-md)">
+          <img src="/work/sdf-design-system/sdf-opaque-colors.svg" alt="SDF color system — opaque and transparency color variants" />
+        </div>
+        <p class="project-detail__gallery-caption">Color tokens covering brand, semantic, and interactive states — including a full set of opaque variants for layering on light and dark surfaces.</p>
 
         <div class="project-detail__gallery-label" data-reveal>Component Library</div>
         <div class="brand-asset-frame brand-asset-frame--wide" data-reveal data-delay="0.1">
           <img src="/work/sdf-design-system/sdf-dropdowns.svg" alt="SDF component library — dropdown variants and states" />
         </div>
-        <p class="project-detail__gallery-caption">Every component was designed across all states — default, hover, focus, error, disabled — and documented for handoff. Dropdowns shown here are one example from a library covering dozens of components.</p>
+        <p class="project-detail__gallery-caption">Every component documented across all states — default, hover, focus, error, disabled — built for direct handoff to engineering.</p>
       </div>
     </section>
 
