@@ -164,45 +164,34 @@ export function workPage() {
           </article>
           </a>
 
-          <article class="work-card tilt-card" data-category="mobile" data-reveal data-delay="0.25">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #191919 0%, #212121 100%)">
-              <div class="work-card__mockup">
-                <div class="mockup-phone">
-                  <div class="mockup-phone__notch"></div>
-                  <div class="mockup-phone__content mockup--neon">
-                    <div class="mockup-status-bar"></div>
-                    <div class="mockup-map-block"></div>
-                    <div class="mockup-bottom-sheet">
-                      <div class="mockup-handle"></div>
-                      <div class="mockup-list-item"></div>
-                      <div class="mockup-list-item"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <a href="#work/dbt-cost-insights" class="work-card-link" data-link>
+          <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.25">
+            <div class="work-card__visual work-card__visual--screenshot">
+              <img src="/work/dbt-cost-insights/cost-insights.svg" alt="dbt Cost Insights dashboard" />
               <div class="work-card__overlay">
-                <span class="work-card__view">View Case Study</span>
+                <span class="work-card__view">View Project</span>
               </div>
             </div>
             <div class="work-card__meta">
               <div class="work-card__tags">
-                <span>Mobile App</span>
-                <span>Maps & Navigation</span>
+                <span>Product Design</span>
+                <span>dbt Labs</span>
               </div>
-              <h3 class="work-card__title">Wayfinder</h3>
-              <p class="work-card__desc">Reimagining urban navigation with accessibility-first design and real-time transit data.</p>
+              <h3 class="work-card__title">Cost Insights</h3>
+              <p class="work-card__desc">A cost tracking feature for dbt Cloud that surfaces total savings from Fusion and state-aware orchestration.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
-                  <strong>1M+</strong>
-                  <span>Monthly users</span>
+                  <strong>3 Views</strong>
+                  <span>Designed</span>
                 </div>
                 <div class="work-card__stat">
-                  <strong>A11y</strong>
-                  <span>AAA rated</span>
+                  <strong>Figma</strong>
+                  <span>End-to-end Design</span>
                 </div>
               </div>
             </div>
           </article>
+          </a>
         </div>
       </div>
     </section>
