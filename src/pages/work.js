@@ -166,7 +166,7 @@ export function workPage() {
 
           <a href="#work/dbt-cost-insights" class="work-card-link" data-link>
           <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.25">
-            <div class="work-card__visual work-card__visual--screenshot">
+            <div class="work-card__visual work-card__visual--screenshot" style="background: #1a1a1a">
               <img src="/work/dbt-cost-insights/cost-insights.svg" alt="dbt Cost Insights dashboard" />
               <div class="work-card__overlay">
                 <span class="work-card__view">View Project</span>
