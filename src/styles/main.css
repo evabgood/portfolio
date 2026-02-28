@@ -710,7 +710,7 @@ em {
 }
 
 .project-card--wide .project-card__image {
-  aspect-ratio: 21 / 6;
+  aspect-ratio: 21 / 4;
 }
 
 .project-card__image--screenshot {
