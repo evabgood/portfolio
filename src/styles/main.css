@@ -2184,6 +2184,62 @@ em {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: var(--space-sm);
+  margin-top: var(--space-2xl);
+}
+
+.project-detail__gallery-label:first-child {
+  margin-top: 0;
+}
+
+/* Brand asset frames */
+.brand-asset-frame {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brand-asset-frame:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.brand-asset-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.brand-asset-frame--banner {
+  background: #fff;
+  margin-bottom: var(--space-2xl);
+}
+
+.brand-asset-frame--wide {
+  background: #fff;
+}
+
+.brand-asset-frame--dark {
+  background: #111;
+}
+
+.brand-asset-frame--keys {
+  background: #f5f5f3;
+  padding: var(--space-2xl) var(--space-3xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin-bottom: var(--space-2xl);
+}
+
+.brand-logo-grid .brand-asset-frame--logo img {
+  width: 100%;
+  height: auto;
 }
 
 .project-detail__gallery-caption {

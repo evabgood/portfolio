@@ -116,23 +116,12 @@ export function workPage() {
             </div>
           </article>
 
+          <a href="#work/sdf-brand" class="work-card-link" data-link>
           <article class="work-card tilt-card" data-category="brand" data-reveal data-delay="0.2">
-            <div class="work-card__visual" style="background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%)">
-              <div class="work-card__mockup">
-                <div class="mockup-brand">
-                  <div class="mockup-logo-circle"></div>
-                  <div class="mockup-brand-lines">
-                    <div></div><div></div><div></div>
-                  </div>
-                  <div class="mockup-color-swatches">
-                    <div style="background: #fa709a"></div>
-                    <div style="background: #fee140"></div>
-                    <div style="background: #1a1a2e"></div>
-                  </div>
-                </div>
-              </div>
+            <div class="work-card__visual work-card__visual--screenshot">
+              <img src="/work/sdf-brand/sdf-banner.svg" alt="SDF Labs brand identity" />
               <div class="work-card__overlay">
-                <span class="work-card__view">View Case Study</span>
+                <span class="work-card__view">View Project</span>
               </div>
             </div>
             <div class="work-card__meta">
@@ -140,20 +129,21 @@ export function workPage() {
                 <span>Brand Identity</span>
                 <span>Visual Design</span>
               </div>
-              <h3 class="work-card__title">Solstice Rebrand</h3>
-              <p class="work-card__desc">A complete visual identity overhaul for a climate-tech startup, from logo to full brand system.</p>
+              <h3 class="work-card__title">SDF Brand</h3>
+              <p class="work-card__desc">Visual identity system for SDF Labs — logos, color language, and brand elements built in Figma.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
-                  <strong>3x</strong>
-                  <span>Brand recall</span>
+                  <strong>Full System</strong>
+                  <span>Logo & Color</span>
                 </div>
                 <div class="work-card__stat">
-                  <strong>+85%</strong>
-                  <span>Brand sentiment</span>
+                  <strong>Figma</strong>
+                  <span>End-to-end Design</span>
                 </div>
               </div>
             </div>
           </article>
+          </a>
 
           <article class="work-card tilt-card" data-category="product" data-reveal data-delay="0.3">
             <div class="work-card__visual" style="background: linear-gradient(135deg, #1b1b1b 0%, #232323 100%)">
