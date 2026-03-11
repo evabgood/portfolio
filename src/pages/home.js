@@ -1,5 +1,9 @@
 export function homePage() {
   return `
+    <!-- ============================================================
+    ORIGINAL HERO — kept for reference, replaced by spec-sheet hero below
+    To restore: uncomment this block and remove the x-hero section
+
     <section class="hero">
       <div class="hero__bg">
         <div class="hero__gradient"></div>
@@ -42,6 +46,91 @@ export function homePage() {
 
       <div class="music-player">
         <iframe src="https://open.spotify.com/embed/track/44S38qjqDCucIhpIwvImCF?utm_source=generator&theme=0" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+    </section>
+    ============================================================ -->
+
+    <section class="x-hero">
+      <div class="x-cursor" aria-hidden="true">
+        <div class="x-cursor__dot"></div>
+        <div class="x-cursor__ring"></div>
+      </div>
+      <div class="music-player">
+        <iframe src="https://open.spotify.com/embed/track/44S38qjqDCucIhpIwvImCF?utm_source=generator&theme=0" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+
+
+      <div class="x-hero__inner">
+
+        <header class="x-hero__header">
+          <div class="x-hero__header-left">
+            <span class="x-tag">PORTFOLIO</span>
+            <span class="x-sep">/</span>
+            <span class="x-tag">EVA GOOD</span>
+          </div>
+          <div class="x-hero__header-right">
+            <span class="x-tag">SF, CA</span>
+            <span class="x-sep">/</span>
+            <span class="x-tag">2026</span>
+          </div>
+        </header>
+
+        <div class="x-hero__body">
+
+          <div class="x-hero__index" aria-hidden="true">
+            <span>001</span>
+            <span>002</span>
+            <span>003</span>
+          </div>
+
+          <div class="x-hero__center">
+            <h1 class="x-title">
+              <span class="x-title__name">Eva Good</span>
+              <span class="x-title__line"></span>
+              <span class="x-title__verb">designs things</span>
+              <span class="x-title__verb">for screens.</span>
+            </h1>
+
+            <p class="x-bio" data-reveal data-delay="0.4" data-typewriter>
+              Product designer, 8 years in. I make interfaces that work and sometimes look good doing it.
+            </p>
+
+            <div class="x-ctas">
+              <a href="#work" class="x-cta magnetic" data-link>Work ↗</a>
+              <a href="#about" class="x-cta x-cta--outline magnetic" data-link>Info</a>
+            </div>
+          </div>
+
+          <div class="x-hero__specs">
+            <dl class="x-speclist">
+              <div class="x-spec">
+                <dt>STATUS</dt>
+                <dd>Available</dd>
+              </div>
+              <div class="x-spec">
+                <dt>CRAFT</dt>
+                <dd>Product<br>Brand<br>Systems</dd>
+              </div>
+              <div class="x-spec">
+                <dt>YRS EXP</dt>
+                <dd>08+</dd>
+              </div>
+              <div class="x-spec">
+                <dt>TOOLS</dt>
+                <dd>Figma<br>Webflow<br>Code</dd>
+              </div>
+            </dl>
+          </div>
+
+        </div>
+
+        <div class="x-hero__bottom">
+          <div class="x-hero__rule"></div>
+          <footer class="x-hero__footer">
+            <div class="x-scroll-hint">scroll ↓</div>
+          </footer>
+        </div>
+
       </div>
     </section>
 

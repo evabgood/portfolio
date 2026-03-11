@@ -14,12 +14,7 @@ export function aboutPage() {
           <div class="about-intro__photo" data-reveal>
             <div class="about-intro__photo-frame">
               <div class="about-intro__avatar">
-                <div class="avatar-graphic">
-                  <div class="avatar-graphic__bg"></div>
-                  <div class="avatar-graphic__shape avatar-graphic__shape--1"></div>
-                  <div class="avatar-graphic__shape avatar-graphic__shape--2"></div>
-                  <div class="avatar-graphic__initials">EG</div>
-                </div>
+                <img src="/headshot.png" alt="Eva Good" class="about-intro__headshot" />
               </div>
               <div class="about-intro__photo-accent"></div>
             </div>

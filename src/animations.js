@@ -24,6 +24,7 @@ export function cleanupAnimations() {
 export function initAnimations() {
   // Always init interactive features (orb follower, magnetic buttons, etc.)
   initOrbFollower();
+  initXHeroCursor();
   initTypewriters();
 
   const reveals = document.querySelectorAll('[data-reveal]:not(.revealed)');
@@ -193,6 +194,58 @@ function initOrbFollower() {
     hero.removeEventListener('mouseleave', onLeave);
   };
 }
+
+// --- Hero spotlight cursor ---
+function initXHeroCursor() {
+  const hero = document.querySelector('.x-hero');
+  if (!hero) return;
+
+  const dot  = hero.querySelector('.x-cursor__dot');
+  const ring = hero.querySelector('.x-cursor__ring');
+  if (!dot || !ring) return;
+
+  let rafId = null;
+  let targetX = 0, targetY = 0;
+  let dotX = 0, dotY = 0;
+  let ringX = 0, ringY = 0;
+
+  function lerp(a, b, t) { return a + (b - a) * t; }
+
+  function animate() {
+    dotX  = lerp(dotX,  targetX, 0.18);
+    dotY  = lerp(dotY,  targetY, 0.18);
+    ringX = lerp(ringX, targetX, 0.08);
+    ringY = lerp(ringY, targetY, 0.08);
+
+    dot.style.transform  = `translate(${dotX - 2.5}px, ${dotY - 2.5}px)`;
+    ring.style.transform = `translate(${ringX - 14}px, ${ringY - 14}px)`;
+    rafId = requestAnimationFrame(animate);
+  }
+
+  function onMove(e) {
+    const rect = hero.getBoundingClientRect();
+    targetX = e.clientX - rect.left;
+    targetY = e.clientY - rect.top;
+  }
+
+  function onLeave() {
+    targetX = dotX;
+    targetY = dotY;
+  }
+
+  hero.addEventListener('mousemove', onMove);
+  hero.addEventListener('mouseleave', onLeave);
+  rafId = requestAnimationFrame(animate);
+
+  const prev = orbCleanup;
+  orbCleanup = () => {
+    if (prev) prev();
+    hero.removeEventListener('mousemove', onMove);
+    hero.removeEventListener('mouseleave', onLeave);
+    cancelAnimationFrame(rafId);
+  };
+}
+
 
 // --- Typewriter effect ---
 function initTypewriters() {
