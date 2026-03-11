@@ -655,7 +655,7 @@ em {
   font-size: clamp(0.75rem, 1.5vw, 0.9rem);
   font-family: var(--font-display);
   font-weight: 400;
-  color: var(--color-text-tertiary);
+  color: var(--color-text);
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
