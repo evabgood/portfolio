@@ -33,11 +33,11 @@ export function workPage() {
                 <span>Webflow Development</span>
               </div>
               <h3 class="work-card__title">SDF Labs</h3>
-              <p class="work-card__desc">Designed and developed the entire website for SDF Labs (Semantic Data Fabric), end-to-end in Figma and Webflow.</p>
+              <p class="work-card__desc">Designed and managed the entire website for SDF Labs (Semantic Data Fabric), end-to-end in Figma and Webflow.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
                   <strong>End-to-end</strong>
-                  <span>Design & Dev</span>
+                  <span>Design</span>
                 </div>
                 <div class="work-card__stat">
                   <strong>Figma</strong>
@@ -59,10 +59,10 @@ export function workPage() {
             <div class="work-card__meta">
               <div class="work-card__tags">
                 <span>Product Design</span>
-                <span>SDF Labs</span>
+                <span>Feature</span>
               </div>
               <h3 class="work-card__title">SDF Lineage</h3>
-              <p class="work-card__desc">Designed three kinds of data lineage for the SDF Cloud — classic, column-level, and classifier (PII) lineage.</p>
+              <p class="work-card__desc">Designed and implemented three kinds of data lineage for the SDF Cloud: classic, column-level, and classifier (PII) lineage.</p>
               <div class="work-card__stats">
                 <div class="work-card__stat">
                   <strong>3 Types</strong>
@@ -70,7 +70,7 @@ export function workPage() {
                 </div>
                 <div class="work-card__stat">
                   <strong>Figma</strong>
-                  <span>End-to-end Design</span>
+                  <span>To Cloud</span>
                 </div>
               </div>
             </div>
