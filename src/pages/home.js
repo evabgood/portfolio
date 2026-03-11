@@ -105,7 +105,6 @@ export function homePage() {
         </div>
 
         <div class="x-hero__bottom">
-          <div class="x-hero__rule"></div>
           <footer class="x-hero__footer">
             <div class="x-scroll-hint">scroll ↓</div>
           </footer>

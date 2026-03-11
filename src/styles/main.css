@@ -2312,8 +2312,9 @@ em {
 
 .music-player {
   position: absolute;
-  bottom: 100px;
-  right: var(--space-lg);
+  top: calc(var(--nav-height) + 130px);
+  right: calc((100vw - 1280px) / 2 + 48px);
+  transform: translateY(-50%);
   z-index: 2;
   border-radius: 12px;
   overflow: hidden;

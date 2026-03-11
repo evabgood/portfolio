@@ -149,7 +149,7 @@
   display: block;
   height: 1px;
   background: rgba(232, 229, 222, 0.15);
-  margin: 20px 0;
+  margin: 20px -64px 20px 0;
 }
 
 .x-title__verb {
@@ -253,7 +253,7 @@
 /* ---- Footer bar — pinned to bottom of hero ---- */
 .x-hero__bottom {
   position: absolute;
-  bottom: 0;
+  bottom: 24px;
   left: 48px;
   right: 48px;
 }
@@ -271,6 +271,15 @@
   text-transform: lowercase;
   color: rgba(232, 229, 222, 0.5);
   font-family: 'Space Mono', monospace;
+  animation: scrollJiggle 2s ease-in-out infinite;
+}
+
+@keyframes scrollJiggle {
+  0%, 100% { transform: translateY(0); }
+  40%       { transform: translateY(5px); }
+  60%       { transform: translateY(3px); }
+  75%       { transform: translateY(6px); }
+  90%       { transform: translateY(2px); }
 }
 
 /* ---- Responsive ---- */
