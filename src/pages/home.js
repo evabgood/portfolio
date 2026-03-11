@@ -101,26 +101,6 @@ export function homePage() {
             </div>
           </div>
 
-          <div class="x-hero__specs">
-            <dl class="x-speclist">
-              <div class="x-spec">
-                <dt>STATUS</dt>
-                <dd>Available</dd>
-              </div>
-              <div class="x-spec">
-                <dt>CRAFT</dt>
-                <dd>Product<br>Brand<br>Systems</dd>
-              </div>
-              <div class="x-spec">
-                <dt>YRS EXP</dt>
-                <dd>08+</dd>
-              </div>
-              <div class="x-spec">
-                <dt>TOOLS</dt>
-                <dd>Figma<br>Webflow<br>Code</dd>
-              </div>
-            </dl>
-          </div>
 
         </div>
 

@@ -99,7 +99,7 @@
 /* ---- Main body grid ---- */
 .x-hero__body {
   display: grid;
-  grid-template-columns: 64px 1fr 220px;
+  grid-template-columns: 64px 1fr;
   gap: 0;
   padding: 24px 0 60px;
   align-items: start;
