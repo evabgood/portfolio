@@ -69,7 +69,7 @@ export function homePage() {
             <span class="x-tag">EVA GOOD</span>
           </div>
           <div class="x-hero__header-right">
-            <span class="x-tag">SF, CA</span>
+            <span class="x-tag">SEATTLE, WA</span>
             <span class="x-sep">/</span>
             <span class="x-tag">2026</span>
           </div>
@@ -88,16 +88,16 @@ export function homePage() {
               <span class="x-title__name">Eva Good</span>
               <span class="x-title__line"></span>
               <span class="x-title__verb">designs things</span>
-              <span class="x-title__verb">for screens.</span>
+              <span class="x-title__verb">with purpose.</span>
             </h1>
 
             <p class="x-bio" data-reveal data-delay="0.4" data-typewriter>
-              Product designer, 8 years in. I make interfaces that work and sometimes look good doing it.
+              Product designer, 3 years in. I make interfaces that work and sometimes look good doing it.
             </p>
 
             <div class="x-ctas">
               <a href="#work" class="x-cta magnetic" data-link>Work ↗</a>
-              <a href="#about" class="x-cta x-cta--outline magnetic" data-link>Info</a>
+              <a href="#about" class="x-cta x-cta--outline magnetic" data-link>About</a>
             </div>
           </div>
 
@@ -164,7 +164,7 @@ export function homePage() {
             <div class="project-card__info">
               <span class="project-card__tag">Web Design</span>
               <h3 class="project-card__title">SDF Labs</h3>
-              <p class="project-card__desc">Designed and built the complete web presence for SDF Labs (Semantic Data Fabric) from Figma to Webflow.</p>
+              <p class="project-card__desc">Designed and managed the complete web presence for SDF Labs (Semantic Data Fabric) from Figma to Webflow.</p>
             </div>
           </div>
           </a>
@@ -190,7 +190,7 @@ export function homePage() {
             <div class="project-card__info">
               <span class="project-card__tag">Brand Identity</span>
               <h3 class="project-card__title">SDF Brand</h3>
-              <p class="project-card__desc">Visual identity system for SDF Labs — logos, color language, and brand elements built in Figma.</p>
+              <p class="project-card__desc">Visual identity system for SDF Labs, including logos, color language, and brand elements built in Figma.</p>
             </div>
           </div>
           </a>
@@ -209,19 +209,19 @@ export function homePage() {
       <div class="container">
         <div class="stats__grid">
           <div class="stat" data-reveal data-delay="0.1">
-            <span class="stat__number" data-count="8" data-suffix="+">0</span>
+            <span class="stat__number" data-count="3" data-suffix="+">0</span>
             <span class="stat__label">Years of Experience</span>
           </div>
           <div class="stat" data-reveal data-delay="0.2">
-            <span class="stat__number" data-count="50" data-suffix="+">0</span>
+            <span class="stat__number" data-count="25" data-suffix="+">0</span>
             <span class="stat__label">Projects Shipped</span>
           </div>
           <div class="stat" data-reveal data-delay="0.3">
-            <span class="stat__number" data-count="12" data-suffix="">0</span>
-            <span class="stat__label">Design Awards</span>
+            <span class="stat__number" data-count="3" data-suffix="+">0</span>
+            <span class="stat__label">Companies Helped</span>
           </div>
           <div class="stat" data-reveal data-delay="0.4">
-            <span class="stat__number" data-count="3" data-suffix="M+">0</span>
+            <span class="stat__number" data-count="1" data-suffix="M+">0</span>
             <span class="stat__label">Users Impacted</span>
           </div>
         </div>
