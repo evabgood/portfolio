@@ -88,7 +88,7 @@ export function homePage() {
               <span class="x-title__name">Eva Good</span>
               <span class="x-title__line"></span>
               <span class="x-title__verb">designs things</span>
-              <span class="x-title__verb">with purpose.</span>
+              <span class="x-title__verb">with <em>purpose.</em></span>
             </h1>
 
             <p class="x-bio" data-reveal data-delay="0.4" data-typewriter>
